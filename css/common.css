@@ -13,6 +13,8 @@ body {
   line-height: 1.5;
 }
 
+/* task-2 */
+
 .gallery {
   margin-top: 50px;
   list-style: none;
@@ -40,4 +42,25 @@ body {
 
 .gallery li:nth-child(n + 4) {
   align-self: center;
+}
+
+/* task-4 */
+
+.widget {
+}
+
+.change-color {
+  width: 148px;
+  height: 40px;
+  background-color: #4e75ff;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+}
+
+.change-color:hover,
+.change-color:focus {
+  background-color: #6c8cff;
 }

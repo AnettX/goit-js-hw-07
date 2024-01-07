@@ -6,7 +6,6 @@ userName.addEventListener('input', () => {
     const name = userName.value.trim();
     nameOutput.textContent = name || 'Anonymous';
         userText.innerHTML = `${name}`;
-
 })
 
 
