@@ -64,3 +64,43 @@ body {
 .change-color:focus {
   background-color: #6c8cff;
 }
+
+/* task-6 */
+
+input {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  text-align: center;
+}
+
+[data-create] {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+}
+
+[data-destroy] {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #ff4e4e;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+}
+
+[data-create]:hover,
+[data-create]:focus {
+  background-color: #6c8cff;
+}
+
+[data-destroy]:hover,
+[data-destroy]:focus {
+  background-color: #ff7070;
+}
