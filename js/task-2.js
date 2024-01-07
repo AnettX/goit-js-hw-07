@@ -27,3 +27,25 @@ const images = [
     alt: 'Zebras on Zebra',
   },
 ];
+
+const elem = document.querySelector('.gallery')
+
+const result = images.map((image) => {
+  const liElem = document.createElement('li');
+  const imgElem = document.createElement('img');
+  imgElem.src = image.url;
+  imgElem.alt = image.alt;
+
+  liElem.appendChild(imgElem);
+  return liElem;
+})
+
+elem.append(...result);
+
+
+// Використовуй масив об'єктів images для створення елементів <img>, вкладених в <li>.
+
+// Ти можеш створити й додати HTML-елементи, використовуючи document.createElement() і elem.append() 
+// або шаблонні рядки і elem.insertAdjacentHTML().
+
+
